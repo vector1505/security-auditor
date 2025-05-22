@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Security Analysis API
 
 A Django-based API service that provides security analysis capabilities including SSL certificate analysis, security headers checking, malware/phishing detection, and network scanning.
@@ -47,3 +48,23 @@ python manage.py runserver
 - `/api/v1/malware-check/` - Malware/phishing detection
 - `/api/v1/network-scan/` - Network scanning
 - `/api/v1/dns-check/` - DNS security checks
+=======
+# security-auditor
+
+An AI powered solution for all your web safety needs
+
+The team includes:
+
+Mentors: 
+1. Mohit Talgotra
+2. Nidhi Karva
+
+Team Init:2winit 
+
+1. Vinayak Joshi - Tech
+2. Ramish Faraz - Management
+3. Tarun Ram - Management
+4. Gayathri S Nair - Management
+5. Lakshay Gupta - Design
+6. Ashwini G - Design
+>>>>>>> 49226bbed6b9a204e037341ea6df5edc68b9deab
