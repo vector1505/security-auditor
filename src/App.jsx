@@ -9,11 +9,13 @@ function App() {
 
   return (
     <>
-    
-  <Header />       
-  <Mainsite />
-  <Checker />
-  <Footer />
+  <div className='flex flex-col justify-fill m-0 p-0 gap-0 bg-gray-900'>
+      
+      <Header />       
+      <Mainsite />
+      <Checker />
+      <Footer />
+  </div>
     </>
   )
 }

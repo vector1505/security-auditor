@@ -3,24 +3,24 @@ import React from "react";
 export default function ProtectionFeatures() {
   const features = [
     {
-      title: "Security Check",
+      title: "Security Check default",
       description:
         "Seamless connectivity between drones and ground autobots for efficient...",
     },
     {
-      title: "Sample text 2",
+      title: "Sample Check Beta",
       description:
         "Seamless connectivity between drones and ground autobots for efficient...",
     },
     {
-      title: "Sample text 3",
+      title: "Sample Check Gamma",
       description:
         "AI-driven sensors analyze surroundings, optimizing routes and avoiding...",
     },
   ];
 
   return (
-    <div className="bg-gradient-to-b from-gray-800 to-gray-700 text-white py-16 px-4">
+    <div className="bg-gradient-to-b from-gray-800 to-gray-700 text-white py-16 my-0 px-4">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-semibold mb-12">
           How Guardify protects you from malicious sites?
