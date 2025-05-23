@@ -1,6 +1,10 @@
 import React from "react";
 
 export default function Checker(){
+
+  function push(){
+    console.log("Works");
+  }
     
     return (
     <div className="flex items-center justify-center p-4 bg-gradient-to-b from-gray-900 to-gray-800"> 
@@ -21,6 +25,7 @@ export default function Checker(){
           <button
             type="button"
             className="px-8 py-4 rounded-lg bg-white hover:bg-gray-200 text-gray-800 font-semibold text-lg transition-colors cursor-pointer"
+            onClick={push}
           >
             Submit
           </button>
